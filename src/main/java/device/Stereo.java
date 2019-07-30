@@ -24,4 +24,7 @@ public class Stereo {
     }
 
 
+    public String playRecord() {
+        return recordDeck.play();
+    }
 }

@@ -30,4 +30,9 @@ public class StereoTest {
     public void canTuneRadio() {
         assertEquals("Radio 1", stereo.tuneRadio());
     }
+
+    @Test
+    public void canPlayRecord() {
+        assertEquals("Smooth Record Tone", stereo.playRecord());
+    }
 }
