@@ -14,6 +14,11 @@ public class RadioTest {
     }
 
     @Test
+    public void startsOnRadio4() {
+        assertEquals("Radio 4", radio.getStation());
+    }
+
+    @Test
     public void canTune() {
 
         assertEquals("Radio 1", radio.tune("Radio 1"));
