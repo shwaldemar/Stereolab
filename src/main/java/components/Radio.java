@@ -1,6 +1,8 @@
 package components;
 
-public class Radio {
+import musicPlayer.Component;
+
+public class Radio extends Component {
     private String station;
     public Radio() {
         this.station = "Radio 4";
@@ -12,6 +14,10 @@ public class Radio {
 
     public String tune(String station) {
         return this.station = station;
+    }
+
+    public String play() {
+        return "Something from a radio station DJ";
     }
 
 }
