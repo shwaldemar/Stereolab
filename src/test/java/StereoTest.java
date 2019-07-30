@@ -40,4 +40,16 @@ public class StereoTest {
     public void canPlayCd() {
         assertEquals("Clean CD Sound", stereo.playCd());
     }
+
+    @Test
+    public void canRaiseVolume() {
+        stereo.raiseVolume();
+        assertEquals(6, stereo.getVolume());
+    }
+
+    @Test
+    public void canLowerVolume() {
+        stereo.lowerVolume();
+        assertEquals(4, stereo.getVolume());
+    }
 }
