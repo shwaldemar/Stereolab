@@ -35,4 +35,9 @@ public class StereoTest {
     public void canPlayRecord() {
         assertEquals("Smooth Record Tone", stereo.playRecord());
     }
+
+    @Test
+    public void canPlayCd() {
+        assertEquals("Clean CD Sound", stereo.playCd());
+    }
 }

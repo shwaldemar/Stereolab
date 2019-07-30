@@ -27,4 +27,8 @@ public class Stereo {
     public String playRecord() {
         return recordDeck.play();
     }
+
+    public String playCd() {
+        return cdPlayer.play();
+    }
 }
